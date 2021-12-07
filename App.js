@@ -1,6 +1,6 @@
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 import React from 'react';
-import { SafeAreaView, StyleSheet, Text, View,Platform ,StatusBar} from 'react-native';
+import { SafeAreaView, /*StyleSheet*/ Text, View,Platform ,StatusBar} from 'react-native';
 
 
 const isAndroid=Platform.OS==='android';
@@ -21,6 +21,6 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
+// const styles = StyleSheet.create({
   
-});
+// });

@@ -19,9 +19,13 @@
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
-    "@react-native-community/eslint-config": "^3.0.1",
+    "@babel/core": "^7.12.9",
     "eslint": "^8.4.1",
-    "@babel/core": "^7.12.9"
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.2.1-beta-12bffc78d-20211206",
+    "prettier": "2.5.1"
   },
   "private": true
 }
